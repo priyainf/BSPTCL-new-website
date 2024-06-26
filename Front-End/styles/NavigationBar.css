@@ -1,0 +1,99 @@
+.navBarParent
+{
+    background-color:#ffffff;
+    height: 15vh;
+    width: 100vw;   
+}
+.parent {
+    display: flex;   
+    height: 100%;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    
+}
+
+.logoAndName {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    
+}
+
+/* Company logo styling */
+.companyLogo {
+    height: 90%;
+    margin-top: 0.5rem;
+}
+ 
+.companyName {
+    margin: auto;
+    margin-left: 0;
+    padding: 2%;
+}
+
+/*
+.logo {
+    margin-left: 10%;
+}*/
+
+.DeptNameHin {
+    font-size: x-large;
+    line-height: 18px;
+    color:#00aff2;
+}
+
+.DeptNameEng {
+    font-size: x-large;
+    line-height: 18px;
+    color:#2f2963;
+}
+
+#govtUndertaking {
+    font-size: small;
+    color:#2f2963;
+}
+
+.utility {
+    height: 20%;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns contents to the extreme right */
+}
+
+.mainLink {
+    background-color: #2f2963;
+    height: 40%;
+    /* width: 60%; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns contents to the extreme right */
+    /* transform-origin: top left; */
+    /* transform: skewX(-33deg); */
+    /* border-left: 5px solid black;
+    border-right: 5px solid black; */
+}
+
+
+
+.utlityBorder {
+    border-right: 1.5px solid black;
+    height: 1.3rem;
+    margin-top: 0.7rem;
+
+}
+.mainLinkFont{
+    font-size: x-large !important;
+    font-weight: 620 !important;
+    color: #ffffff !important;
+    
+}
+
+.menuItems{
+    
+}
